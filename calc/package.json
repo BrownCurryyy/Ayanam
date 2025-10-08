@@ -1,0 +1,13 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "fetchVedicMonth.js",
+  "scripts": {
+    "start": "node fetchVedicMonth.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "suncalc": "^1.9.0"
+  }
+}

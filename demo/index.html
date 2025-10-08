@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ayanam — Quick Panchang Raw Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      font-family: Inter, Arial, sans-serif;
+      background:#fff8e0; color:#111; margin:20px;
+    }
+    h1 { text-align:center; margin-bottom:6px; }
+    .controls {
+      display:flex; gap:8px; justify-content:center;
+      align-items:center; margin:14px 0; flex-wrap:wrap;
+    }
+    input[type="date"]{ padding:8px 10px; border-radius:6px; border:1px solid #ddd; }
+    button{ padding:9px 14px; border-radius:8px; border:none;
+      background:#6b46c1; color:white; cursor:pointer; }
+    button:active{ transform:translateY(1px); }
+    #status{ text-align:center; margin-top:8px; color:#666; font-size:14px; }
+    #output{ margin-top:18px; background:#0f1720; color:#9fffa3;
+      padding:12px; border-radius:8px; max-height:520px; overflow:auto;
+      white-space:pre-wrap; font-family: monospace; font-size:13px;}
+  </style>
+</head>
+<body>
+  <h1>Ayanam</h1>
+
+  <div class="controls">
+    <label for="date">Pick a date:</label>
+    <input id="date" type="date" />
+    <button id="goBtn">Get Panchang</button>
+  </div>
+
+  <div class="controls">
+    <label for="birthDate">Birth/Anniversary:</label>
+    <input id="birthDate" type="date" />
+    <label for="targetDate">Target Year:</label>
+    <input id="targetDate" type="date" />
+    <button id="matchBtn">Match</button>
+  </div>
+
+  <div id="status">Ready.</div>
+  <pre id="output">Results will appear here.</pre>
+
+  <script>
+    const API_KEY = "K2CU9-XeVtkhbOVimFDwEKZOWeLJg--KN97H4VOahV27TMb-ia";
+    const BASE_URL = "https://Hindu-Panchang.proxy-production.allthingsdev.co/panchang";
+    const DEFAULT_LAT = "23.1823900";
+    const DEFAULT_LNG = "75.7764300";
+    const DEFAULT_ALT = "0.494";
+    const DEFAULT_TZ = "Asia/Kolkata";
+
+    const dateInput = document.getElementById("date");
+    const goBtn = document.getElementById("goBtn");
+    const birthDateInput = document.getElementById("birthDate");
+    const targetDateInput = document.getElementById("targetDate");
+    const matchBtn = document.getElementById("matchBtn");
+    const output = document.getElementById("output");
+    const status = document.getElementById("status");
+
+    // Default to today for "Get Panchang"
+    (function setToday() {
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, "0");
+      const dd = String(today.getDate()).padStart(2, "0");
+      dateInput.value = `${yyyy}-${mm}-${dd}`;
+    })();
+
+    // Fill target year automatically when birthdate chosen
+    birthDateInput.addEventListener("change", () => {
+      if (!birthDateInput.value) return;
+      const d = new Date(birthDateInput.value);
+      const thisYear = new Date().getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      targetDateInput.value = `${thisYear}-${mm}-${dd}`;
+    });
+
+    function toDDMMYYYY(isoDate) {
+      const [y, m, d] = isoDate.split("-");
+      return `${d}-${m}-${y}`;
+    }
+
+    async function fetchPanchangForDate(isoDate) {
+      const formatted = toDDMMYYYY(isoDate);
+      const url = `${BASE_URL}?date=${encodeURIComponent(formatted)}&lat=${DEFAULT_LAT}&lng=${DEFAULT_LNG}&alt=${DEFAULT_ALT}&tz=${DEFAULT_TZ}`;
+
+      const myHeaders = new Headers();
+      myHeaders.append("Accept", "application/json");
+      myHeaders.append("x-apihub-key", API_KEY);
+      myHeaders.append("x-apihub-host", "Hindu-Panchang.allthingsdev.co");
+      myHeaders.append("x-apihub-endpoint", "a925b172-7b98-4142-9348-c1524fe9abd4");
+
+      const opts = { method: "GET", headers: myHeaders };
+
+      status.textContent = `Fetching Panchang for ${isoDate}...`;
+      try {
+        const resp = await fetch(url, opts);
+        const txt = await resp.text();
+        try {
+          return JSON.parse(txt);
+        } catch {
+          return txt;
+        }
+      } catch (err) {
+        status.textContent = `Request failed: ${err}`;
+        return null;
+      }
+    }
+
+    async function handleClick() {
+      output.textContent = "Loading...";
+      if (!dateInput.value) return;
+      const data = await fetchPanchangForDate(dateInput.value);
+      if (!data) { output.textContent = "No data."; return; }
+      output.textContent = (typeof data === "object")
+        ? JSON.stringify(data, null, 2)
+        : String(data);
+      status.textContent = "Done.";
+    }
+    goBtn.addEventListener("click", handleClick);
+
+    async function handleMatch() {
+      output.textContent = "Loading...";
+      const birthIso = birthDateInput.value;
+      const targetIso = targetDateInput.value;
+      if (!birthIso || !targetIso) {
+        output.textContent = "Pick both dates.";
+        return;
+      }
+      const birthData = await fetchPanchangForDate(birthIso);
+      const targetData = await fetchPanchangForDate(targetIso);
+      if (!birthData?.data || !targetData?.data) {
+        output.textContent = "Could not fetch Panchang.";
+        return;
+      }
+      const birthTithi = birthData.data.tithi;
+      const birthNak = birthData.data.nakshatra;
+      const targetTithi = targetData.data.tithi;
+      const targetNak = targetData.data.nakshatra;
+
+      let msg = `📅 Birth (${birthIso}):\nTithi = ${birthTithi}\nNakshatra = ${birthNak}\n\n`;
+      msg += `📅 Target (${targetIso}):\nTithi = ${targetTithi}\nNakshatra = ${targetNak}\n\n`;
+
+      if (birthTithi && targetTithi && birthNak && targetNak) {
+        if (
+          birthTithi.split(" ")[0] === targetTithi.split(" ")[0] &&
+          birthNak.split(" ")[0] === targetNak.split(" ")[0]
+        ) {
+          msg += "✅ Match found!";
+        } else {
+          msg += "❌ No match.";
+        }
+      }
+      output.textContent = msg;
+      status.textContent = "Done.";
+    }
+    matchBtn.addEventListener("click", handleMatch);
+  </script>
+</body>
+</html>

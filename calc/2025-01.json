@@ -1,0 +1,6977 @@
+{
+  "2024-12-31": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 1,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 321.684685779715,
+          "normDegree": 21.684685779714982,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 256.8483134796616,
+          "normDegree": 16.848313479661613,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 273.22308577596175,
+          "normDegree": 3.2230857759617493,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 97.6540222875481,
+          "normDegree": 7.654022287548102,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 235.96809487899603,
+          "normDegree": 25.968094878996027,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.99549046511822,
+          "normDegree": 18.995490465118223,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 303.7604378037805,
+          "normDegree": 3.760437803780519,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.34546617369045,
+          "normDegree": 20.345466173690454,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.2830107295139,
+          "normDegree": 7.283010729513876,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.2830107295139,
+          "normDegree": 7.283010729513904,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.44441580844087,
+          "normDegree": 29.44441580844087,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.0968948955409,
+          "normDegree": 3.0968948955409132,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 276.8627853439504,
+          "normDegree": 6.8627853439504065,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202220975609958
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 321.684685779715,
+          "normDegree": 21.684685779714982,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 256.8483134796616,
+          "normDegree": 16.848313479661613,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 273.22308577596175,
+          "normDegree": 3.2230857759617493,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 97.6540222875481,
+          "normDegree": 7.654022287548102,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 8,
+          "house_number": 10,
+          "fullDegree": 235.96809487899603,
+          "normDegree": 25.968094878996027,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.99549046511822,
+          "normDegree": 18.995490465118223,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 303.7604378037805,
+          "normDegree": 3.760437803780519,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.34546617369045,
+          "normDegree": 20.345466173690454,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.2830107295139,
+          "normDegree": 7.283010729513876,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.2830107295139,
+          "normDegree": 7.283010729513904,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.44441580844087,
+          "normDegree": 29.44441580844087,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.0968948955409,
+          "normDegree": 3.0968948955409132,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 276.8627853439504,
+          "normDegree": 6.8627853439504065,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-01": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 2,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 322.9858761386884,
+          "normDegree": 22.98587613868841,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 257.8675266465518,
+          "normDegree": 17.867526646551823,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 286.9070384747205,
+          "normDegree": 16.90703847472048,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 97.31967598372641,
+          "normDegree": 7.3196759837264125,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 237.2726092029522,
+          "normDegree": 27.272609202952196,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.890678984777495,
+          "normDegree": 18.890678984777495,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 304.8299095165053,
+          "normDegree": 4.8299095165053245,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.42193091155724,
+          "normDegree": 20.42193091155724,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.23001875184775,
+          "normDegree": 7.2300187518477514,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.23001875184775,
+          "normDegree": 7.2300187518477514,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.420520974170035,
+          "normDegree": 29.420520974170035,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.1111146975689,
+          "normDegree": 3.111114697568894,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 276.8935875101265,
+          "normDegree": 6.893587510126508,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202259216085462
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 322.9858761386884,
+          "normDegree": 22.98587613868841,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 257.8675266465518,
+          "normDegree": 17.867526646551823,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 286.9070384747205,
+          "normDegree": 16.90703847472048,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 97.31967598372641,
+          "normDegree": 7.3196759837264125,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 8,
+          "house_number": 10,
+          "fullDegree": 237.2726092029522,
+          "normDegree": 27.272609202952196,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.890678984777495,
+          "normDegree": 18.890678984777495,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 304.8299095165053,
+          "normDegree": 4.8299095165053245,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.42193091155724,
+          "normDegree": 20.42193091155724,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.23001875184775,
+          "normDegree": 7.2300187518477514,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.23001875184775,
+          "normDegree": 7.2300187518477514,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.420520974170035,
+          "normDegree": 29.420520974170035,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.1111146975689,
+          "normDegree": 3.111114697568894,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 276.8935875101265,
+          "normDegree": 6.893587510126508,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-02": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 3,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 324.29032186582197,
+          "normDegree": 24.290321865821966,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 258.88675324956154,
+          "normDegree": 18.886753249561536,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 300.7233688795665,
+          "normDegree": 0.7233688795665216,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 96.97608475888973,
+          "normDegree": 6.976084758889726,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 238.59986316904278,
+          "normDegree": 28.599863169042777,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.788275113710206,
+          "normDegree": 18.788275113710206,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 305.8942376010116,
+          "normDegree": 5.894237601011582,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.4997151161432,
+          "normDegree": 20.499715116143193,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.17702677418515,
+          "normDegree": 7.177026774185151,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.17702677418518,
+          "normDegree": 7.17702677418518,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.39735338183155,
+          "normDegree": 29.39735338183155,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.12588156083706,
+          "normDegree": 3.1258815608370583,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 276.92453768231354,
+          "normDegree": 6.924537682313542,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20229745656051
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 324.29032186582197,
+          "normDegree": 24.290321865821966,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 258.88675324956154,
+          "normDegree": 18.886753249561536,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 300.7233688795665,
+          "normDegree": 0.7233688795665216,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 96.97608475888973,
+          "normDegree": 6.976084758889726,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 8,
+          "house_number": 10,
+          "fullDegree": 238.59986316904278,
+          "normDegree": 28.599863169042777,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.788275113710206,
+          "normDegree": 18.788275113710206,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 305.8942376010116,
+          "normDegree": 5.894237601011582,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.4997151161432,
+          "normDegree": 20.499715116143193,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.17702677418515,
+          "normDegree": 7.177026774185151,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.17702677418518,
+          "normDegree": 7.17702677418518,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.39735338183155,
+          "normDegree": 29.39735338183155,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.12588156083706,
+          "normDegree": 3.1258815608370583,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 276.92453768231354,
+          "normDegree": 6.924537682313542,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-03": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 4,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 325.5977151051677,
+          "normDegree": 25.59771510516771,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 259.9059827341374,
+          "normDegree": 19.90598273413741,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 314.6264513154721,
+          "normDegree": 14.626451315472082,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 96.6238391100064,
+          "normDegree": 6.623839110006401,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 239.9475826815666,
+          "normDegree": 29.947582681566587,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.688348154241616,
+          "normDegree": 18.688348154241616,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 306.9532417647477,
+          "normDegree": 6.953241764747702,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.57880167037644,
+          "normDegree": 20.578801670376436,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.1240347965262,
+          "normDegree": 7.124034796526189,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.1240347965262,
+          "normDegree": 7.124034796526189,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.374923129518685,
+          "normDegree": 29.374923129518685,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.14119197094516,
+          "normDegree": 3.141191970945158,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 276.9556283017556,
+          "normDegree": 6.95562830175561,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20233569703509
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 325.5977151051677,
+          "normDegree": 25.59771510516771,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 259.9059827341374,
+          "normDegree": 19.90598273413741,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 314.6264513154721,
+          "normDegree": 14.626451315472082,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 96.6238391100064,
+          "normDegree": 6.623839110006401,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 8,
+          "house_number": 10,
+          "fullDegree": 239.9475826815666,
+          "normDegree": 29.947582681566587,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.688348154241616,
+          "normDegree": 18.688348154241616,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 306.9532417647477,
+          "normDegree": 6.953241764747702,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.57880167037644,
+          "normDegree": 20.578801670376436,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.1240347965262,
+          "normDegree": 7.124034796526189,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.1240347965262,
+          "normDegree": 7.124034796526189,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.374923129518685,
+          "normDegree": 29.374923129518685,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.14119197094516,
+          "normDegree": 3.141191970945158,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 276.9556283017556,
+          "normDegree": 6.95562830175561,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-04": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 5,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 326.90774268768854,
+          "normDegree": 26.90774268768854,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 260.9252045445898,
+          "normDegree": 20.925204544589803,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 328.5830638677433,
+          "normDegree": 28.583063867743306,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 96.26356136589804,
+          "normDegree": 6.263561365898042,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 241.31381466738736,
+          "normDegree": 1.313814667387362,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.59096494126226,
+          "normDegree": 18.590964941262257,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 308.00673482768,
+          "normDegree": 8.00673482768002,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.65917328983056,
+          "normDegree": 20.659173289830562,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.0710428188707,
+          "normDegree": 7.071042818870694,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.0710428188707,
+          "normDegree": 7.071042818870694,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.353239989633632,
+          "normDegree": 29.353239989633632,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.1570422574251,
+          "normDegree": 3.1570422574250756,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 276.9868517775412,
+          "normDegree": 6.986851777541176,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202373937509204
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 326.90774268768854,
+          "normDegree": 26.90774268768854,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 260.9252045445898,
+          "normDegree": 20.925204544589803,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 328.5830638677433,
+          "normDegree": 28.583063867743306,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 96.26356136589804,
+          "normDegree": 6.263561365898042,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 241.31381466738736,
+          "normDegree": 1.313814667387362,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.59096494126226,
+          "normDegree": 18.590964941262257,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 308.00673482768,
+          "normDegree": 8.00673482768002,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.65917328983056,
+          "normDegree": 20.659173289830562,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.0710428188707,
+          "normDegree": 7.071042818870694,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.0710428188707,
+          "normDegree": 7.071042818870694,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.353239989633632,
+          "normDegree": 29.353239989633632,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.1570422574251,
+          "normDegree": 3.1570422574250756,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 276.9868517775412,
+          "normDegree": 6.986851777541176,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-05": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 6,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 328.22008596370506,
+          "normDegree": 28.22008596370506,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 261.94440812794403,
+          "normDegree": 21.94440812794403,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 342.5735493412851,
+          "normDegree": 12.573549341285116,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 95.89590400063791,
+          "normDegree": 5.895904000637913,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 242.69688667857014,
+          "normDegree": 2.696886678570138,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.49618981196758,
+          "normDegree": 18.496189811967582,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 309.0545224082967,
+          "normDegree": 9.054522408296691,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.74081253016067,
+          "normDegree": 20.740812530160667,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 337.0180508412189,
+          "normDegree": 7.018050841218894,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 157.0180508412189,
+          "normDegree": 7.018050841218894,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.3323134065507,
+          "normDegree": 29.3323134065507,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.1734285959363,
+          "normDegree": 3.1734285959362865,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.0182004886594,
+          "normDegree": 7.0182004886593745,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20241217798286
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 328.22008596370506,
+          "normDegree": 28.22008596370506,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 261.94440812794403,
+          "normDegree": 21.94440812794403,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 342.5735493412851,
+          "normDegree": 12.573549341285116,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 95.89590400063791,
+          "normDegree": 5.895904000637913,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 242.69688667857014,
+          "normDegree": 2.696886678570138,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.49618981196758,
+          "normDegree": 18.496189811967582,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 309.0545224082967,
+          "normDegree": 9.054522408296691,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.74081253016067,
+          "normDegree": 20.740812530160667,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 337.0180508412189,
+          "normDegree": 7.018050841218894,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 157.0180508412189,
+          "normDegree": 7.018050841218894,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.3323134065507,
+          "normDegree": 29.3323134065507,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.1734285959363,
+          "normDegree": 3.1734285959362865,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 277.0182004886594,
+          "normDegree": 7.0182004886593745,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-06": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 7,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 329.53442032724894,
+          "normDegree": 29.534420327248938,
+          "isRetro": "false",
+          "current_sign": 11
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 262.9635829378297,
+          "normDegree": 22.9635829378297,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 356.5879582448713,
+          "normDegree": 26.587958244871288,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 95.5215476678887,
+          "normDegree": 5.521547667888697,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 6
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 244.09537158095435,
+          "normDegree": 4.09537158095435,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.40408458084396,
+          "normDegree": 18.404084580843957,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 4
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 310.096402592944,
+          "normDegree": 10.096402592944003,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.8237017943695,
+          "normDegree": 20.823701794369526,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 1
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.96505886357056,
+          "normDegree": 6.965058863570562,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.96505886357056,
+          "normDegree": 6.965058863570562,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 8
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.312152494529315,
+          "normDegree": 29.312152494529315,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 3
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.190347010494,
+          "normDegree": 3.1903470104940084,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 2
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.04966678605587,
+          "normDegree": 7.049666786055866,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 12
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202450418456053
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 11,
+          "fullDegree": 329.53442032724894,
+          "normDegree": 29.534420327248938,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 262.9635829378297,
+          "normDegree": 22.9635829378297,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 356.5879582448713,
+          "normDegree": 26.587958244871288,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 6,
+          "fullDegree": 95.5215476678887,
+          "normDegree": 5.521547667888697,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 11,
+          "fullDegree": 244.09537158095435,
+          "normDegree": 4.09537158095435,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 4,
+          "fullDegree": 48.40408458084396,
+          "normDegree": 18.404084580843957,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 310.096402592944,
+          "normDegree": 10.096402592944003,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 1,
+          "fullDegree": 320.8237017943695,
+          "normDegree": 20.823701794369526,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 336.96505886357056,
+          "normDegree": 6.965058863570562,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 8,
+          "fullDegree": 156.96505886357056,
+          "normDegree": 6.965058863570562,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 3,
+          "fullDegree": 29.312152494529315,
+          "normDegree": 29.312152494529315,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 2,
+          "fullDegree": 333.190347010494,
+          "normDegree": 3.1903470104940084,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 12,
+          "fullDegree": 277.04966678605587,
+          "normDegree": 7.049666786055866,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-07": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 8,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 330.8504146807008,
+          "normDegree": 0.8504146807007942,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 263.982718438344,
+          "normDegree": 23.982718438344023,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 10.61859047145822,
+          "normDegree": 10.61859047145822,
+          "isRetro": "false",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 95.14119896579106,
+          "normDegree": 5.141198965791062,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 245.50805676895223,
+          "normDegree": 5.50805676895223,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.314708519827,
+          "normDegree": 18.314708519827,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 311.1321655876163,
+          "normDegree": 11.132165587616328,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.90782333990023,
+          "normDegree": 20.907823339900233,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.9120668859259,
+          "normDegree": 6.912066885925924,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.9120668859259,
+          "normDegree": 6.912066885925896,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.292766035879417,
+          "normDegree": 29.292766035879417,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.2077933757323,
+          "normDegree": 3.207793375732308,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.0812429946897,
+          "normDegree": 7.081242994689717,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20248865892878
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 330.8504146807008,
+          "normDegree": 0.8504146807007942,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 263.982718438344,
+          "normDegree": 23.982718438344023,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 10.61859047145822,
+          "normDegree": 10.61859047145822,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 95.14119896579106,
+          "normDegree": 5.141198965791062,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 245.50805676895223,
+          "normDegree": 5.50805676895223,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 48.314708519827,
+          "normDegree": 18.314708519827,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 311.1321655876163,
+          "normDegree": 11.132165587616328,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 320.90782333990023,
+          "normDegree": 20.907823339900233,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.9120668859259,
+          "normDegree": 6.912066885925924,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.9120668859259,
+          "normDegree": 6.912066885925896,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.292766035879417,
+          "normDegree": 29.292766035879417,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.2077933757323,
+          "normDegree": 3.207793375732308,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.0812429946897,
+          "normDegree": 7.081242994689717,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-08": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 9,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 332.16773111674684,
+          "normDegree": 2.167731116746836,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 265.0018041079266,
+          "normDegree": 25.001804107926603,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 24.651433613684205,
+          "normDegree": 24.651433613684205,
+          "isRetro": "false",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 94.75558794641671,
+          "normDegree": 4.755587946416711,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 246.9339173741323,
+          "normDegree": 6.933917374132307,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.22811834351868,
+          "normDegree": 18.22811834351868,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 312.1615933513823,
+          "normDegree": 12.161593351382294,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 320.99315928556416,
+          "normDegree": 20.99315928556416,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.85907490828475,
+          "normDegree": 6.859074908284754,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.85907490828475,
+          "normDegree": 6.859074908284754,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.27416247937431,
+          "normDegree": 29.27416247937431,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.22576341919876,
+          "normDegree": 3.2257634191987563,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.11292141558823,
+          "normDegree": 7.112921415588232,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202526899401043
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 332.16773111674684,
+          "normDegree": 2.167731116746836,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 265.0018041079266,
+          "normDegree": 25.001804107926603,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 24.651433613684205,
+          "normDegree": 24.651433613684205,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 94.75558794641671,
+          "normDegree": 4.755587946416711,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 246.9339173741323,
+          "normDegree": 6.933917374132307,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 48.22811834351868,
+          "normDegree": 18.22811834351868,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 312.1615933513823,
+          "normDegree": 12.161593351382294,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 320.99315928556416,
+          "normDegree": 20.99315928556416,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.85907490828475,
+          "normDegree": 6.859074908284754,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.85907490828475,
+          "normDegree": 6.859074908284754,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.27416247937431,
+          "normDegree": 29.27416247937431,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.22576341919876,
+          "normDegree": 3.2257634191987563,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.11292141558823,
+          "normDegree": 7.112921415588232,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-09": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 10,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 333.4860250783088,
+          "normDegree": 3.486025078308785,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 266.0208294432158,
+          "normDegree": 26.020829443215803,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 38.659416203142655,
+          "normDegree": 8.659416203142655,
+          "isRetro": "false",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 94.36546538840558,
+          "normDegree": 4.365465388405582,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 248.3720929752846,
+          "normDegree": 8.372092975284602,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.144368199353636,
+          "normDegree": 18.144368199353636,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 313.18445921056247,
+          "normDegree": 13.184459210562466,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.07969161829357,
+          "normDegree": 21.079691618293566,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.8060829306473,
+          "normDegree": 6.806082930647278,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.80608293064728,
+          "normDegree": 6.806082930647278,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.25634993891014,
+          "normDegree": 29.25634993891014,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.24425272368006,
+          "normDegree": 3.244252723680063,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.1446943279014,
+          "normDegree": 7.144694327901391,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202565139872846
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 333.4860250783088,
+          "normDegree": 3.486025078308785,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 266.0208294432158,
+          "normDegree": 26.020829443215803,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 38.659416203142655,
+          "normDegree": 8.659416203142655,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 94.36546538840558,
+          "normDegree": 4.365465388405582,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 248.3720929752846,
+          "normDegree": 8.372092975284602,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 48.144368199353636,
+          "normDegree": 18.144368199353636,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 313.18445921056247,
+          "normDegree": 13.184459210562466,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.07969161829357,
+          "normDegree": 21.079691618293566,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.8060829306473,
+          "normDegree": 6.806082930647278,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.80608293064728,
+          "normDegree": 6.806082930647278,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.25634993891014,
+          "normDegree": 29.25634993891014,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.24425272368006,
+          "normDegree": 3.244252723680063,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.1446943279014,
+          "normDegree": 7.144694327901391,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-10": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 11,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 334.8049461253563,
+          "normDegree": 4.8049461253563095,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 267.0397839628622,
+          "normDegree": 27.039783962862202,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 52.599935911358145,
+          "normDegree": 22.599935911358145,
+          "isRetro": "false",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 93.97159985573498,
+          "normDegree": 3.971599855734979,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 249.8218673635001,
+          "normDegree": 9.821867363500104,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 48.06350966258215,
+          "normDegree": 18.06350966258215,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 314.20052745274916,
+          "normDegree": 14.200527452749157,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.16740219972996,
+          "normDegree": 21.167402199729963,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.75309095301327,
+          "normDegree": 6.75309095301327,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.75309095301324,
+          "normDegree": 6.753090953013242,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.239336192408928,
+          "normDegree": 29.239336192408928,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.2632567295527,
+          "normDegree": 3.2632567295527224,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.1765539909535,
+          "normDegree": 7.176553990953494,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202603380344186
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 334.8049461253563,
+          "normDegree": 4.8049461253563095,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 267.0397839628622,
+          "normDegree": 27.039783962862202,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 52.599935911358145,
+          "normDegree": 22.599935911358145,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 93.97159985573498,
+          "normDegree": 3.971599855734979,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 249.8218673635001,
+          "normDegree": 9.821867363500104,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 48.06350966258215,
+          "normDegree": 18.06350966258215,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 314.20052745274916,
+          "normDegree": 14.200527452749157,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.16740219972996,
+          "normDegree": 21.167402199729963,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.75309095301327,
+          "normDegree": 6.75309095301327,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.75309095301324,
+          "normDegree": 6.753090953013242,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.239336192408928,
+          "normDegree": 29.239336192408928,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.2632567295527,
+          "normDegree": 3.2632567295527224,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.1765539909535,
+          "normDegree": 7.176553990953494,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-11": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 12,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 336.12413936367705,
+          "normDegree": 6.124139363677045,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 268.0586572113402,
+          "normDegree": 28.058657211340176,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 66.41768760529996,
+          "normDegree": 6.41768760529996,
+          "isRetro": "false",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 93.5747745694636,
+          "normDegree": 3.5747745694635995,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 251.28265096291543,
+          "normDegree": 11.282650962915426,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.98559173591845,
+          "normDegree": 17.985591735918447,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 315.20955289981765,
+          "normDegree": 15.209552899817652,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.2562727726415,
+          "normDegree": 21.256272772641523,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.70009897538284,
+          "normDegree": 6.7000989753828435,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.70009897538287,
+          "normDegree": 6.700098975382872,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.223128680961704,
+          "normDegree": 29.223128680961704,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.2827707371627,
+          "normDegree": 3.282770737162707,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.2084926462934,
+          "normDegree": 7.208492646293394,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20264162081506
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 336.12413936367705,
+          "normDegree": 6.124139363677045,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 268.0586572113402,
+          "normDegree": 28.058657211340176,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 66.41768760529996,
+          "normDegree": 6.41768760529996,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 93.5747745694636,
+          "normDegree": 3.5747745694635995,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 251.28265096291543,
+          "normDegree": 11.282650962915426,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.98559173591845,
+          "normDegree": 17.985591735918447,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 315.20955289981765,
+          "normDegree": 15.209552899817652,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.2562727726415,
+          "normDegree": 21.256272772641523,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.70009897538284,
+          "normDegree": 6.7000989753828435,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.70009897538287,
+          "normDegree": 6.700098975382872,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.223128680961704,
+          "normDegree": 29.223128680961704,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.2827707371627,
+          "normDegree": 3.282770737162707,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.2084926462934,
+          "normDegree": 7.208492646293394,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-12": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 13,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 337.4432474280314,
+          "normDegree": 7.443247428031384,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 269.0774387627025,
+          "normDegree": 29.077438762702513,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 80.05188332156966,
+          "normDegree": 20.05188332156966,
+          "isRetro": "false",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 93.17578412311356,
+          "normDegree": 3.1757841231135586,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 252.75396555315118,
+          "normDegree": 12.753965553151176,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.910660853703334,
+          "normDegree": 17.910660853703334,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 316.2112804589817,
+          "normDegree": 16.21128045898172,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.346284967173,
+          "normDegree": 21.346284967173005,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.64710699775605,
+          "normDegree": 6.647106997756055,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.64710699775608,
+          "normDegree": 6.647106997756083,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.207734508208397,
+          "normDegree": 29.207734508208397,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.30278990922784,
+          "normDegree": 3.3027899092278403,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.24050251974006,
+          "normDegree": 7.240502519740062,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202679861285475
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 337.4432474280314,
+          "normDegree": 7.443247428031384,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 269.0774387627025,
+          "normDegree": 29.077438762702513,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 80.05188332156966,
+          "normDegree": 20.05188332156966,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 93.17578412311356,
+          "normDegree": 3.1757841231135586,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 252.75396555315118,
+          "normDegree": 12.753965553151176,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.910660853703334,
+          "normDegree": 17.910660853703334,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 316.2112804589817,
+          "normDegree": 16.21128045898172,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.346284967173,
+          "normDegree": 21.346284967173005,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.64710699775605,
+          "normDegree": 6.647106997756055,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.64710699775608,
+          "normDegree": 6.647106997756083,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.207734508208397,
+          "normDegree": 29.207734508208397,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.30278990922784,
+          "normDegree": 3.3027899092278403,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.24050251974006,
+          "normDegree": 7.240502519740062,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-13": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 14,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 338.76191281099534,
+          "normDegree": 8.76191281099534,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 270.09611822432555,
+          "normDegree": 0.09611822432555073,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 93.44582674217955,
+          "normDegree": 3.4458267421795483,
+          "isRetro": "false",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 92.77543107520228,
+          "normDegree": 2.7754310752022775,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 254.23543098189378,
+          "normDegree": 14.235430981893785,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.838760890407926,
+          "normDegree": 17.838760890407926,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 317.2054446510533,
+          "normDegree": 17.205444651053313,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.4374203069306,
+          "normDegree": 21.43742030693062,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.5941150201328,
+          "normDegree": 6.59411502013279,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.5941150201328,
+          "normDegree": 6.59411502013279,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.193160439950155,
+          "normDegree": 29.193160439950155,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.32330927326115,
+          "normDegree": 3.3233092732611453,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.2725758234262,
+          "normDegree": 7.272575823426223,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202718101755423
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 338.76191281099534,
+          "normDegree": 8.76191281099534,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 270.09611822432555,
+          "normDegree": 0.09611822432555073,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 93.44582674217955,
+          "normDegree": 3.4458267421795483,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 92.77543107520228,
+          "normDegree": 2.7754310752022775,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 254.23543098189378,
+          "normDegree": 14.235430981893785,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.838760890407926,
+          "normDegree": 17.838760890407926,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 317.2054446510533,
+          "normDegree": 17.205444651053313,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.4374203069306,
+          "normDegree": 21.43742030693062,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.5941150201328,
+          "normDegree": 6.59411502013279,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.5941150201328,
+          "normDegree": 6.59411502013279,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.193160439950155,
+          "normDegree": 29.193160439950155,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.32330927326115,
+          "normDegree": 3.3233092732611453,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.2725758234262,
+          "normDegree": 7.272575823426223,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-14": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 15,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 340.0797802804637,
+          "normDegree": 10.079780280463694,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 271.11468524063145,
+          "normDegree": 1.1146852406314451,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 106.55676835989269,
+          "normDegree": 16.556768359892686,
+          "isRetro": "false",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 92.3745224550409,
+          "normDegree": 2.3745224550409034,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 255.72675359450636,
+          "normDegree": 15.726753594506363,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.76993317329758,
+          "normDegree": 17.76993317329758,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 318.1917691150275,
+          "normDegree": 18.191769115027512,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.52966021490056,
+          "normDegree": 21.52966021490056,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.5411230425131,
+          "normDegree": 6.541123042513107,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.5411230425131,
+          "normDegree": 6.541123042513107,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.17941290398909,
+          "normDegree": 29.17941290398909,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.3443237240168,
+          "normDegree": 3.3443237240168173,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.3047047578383,
+          "normDegree": 7.304704757838294,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20275634222491
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 340.0797802804637,
+          "normDegree": 10.079780280463694,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 271.11468524063145,
+          "normDegree": 1.1146852406314451,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 106.55676835989269,
+          "normDegree": 16.556768359892686,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 92.3745224550409,
+          "normDegree": 2.3745224550409034,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 255.72675359450636,
+          "normDegree": 15.726753594506363,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.76993317329758,
+          "normDegree": 17.76993317329758,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 318.1917691150275,
+          "normDegree": 18.191769115027512,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.52966021490056,
+          "normDegree": 21.52966021490056,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.5411230425131,
+          "normDegree": 6.541123042513107,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.5411230425131,
+          "normDegree": 6.541123042513107,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.17941290398909,
+          "normDegree": 29.17941290398909,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.3443237240168,
+          "normDegree": 3.3443237240168173,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.3047047578383,
+          "normDegree": 7.304704757838294,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-15": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 16,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 341.3964990694709,
+          "normDegree": 11.396499069470906,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 272.1331294967788,
+          "normDegree": 2.1331294967787926,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 119.36386051391358,
+          "normDegree": 29.36386051391358,
+          "isRetro": "false",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 91.97386621963807,
+          "normDegree": 1.9738662196380687,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 257.22771614179777,
+          "normDegree": 17.22771614179777,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.704216499080125,
+          "normDegree": 17.704216499080125,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 319.16996608814264,
+          "normDegree": 19.169966088142644,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.6229860192056,
+          "normDegree": 21.622986019205598,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.4881310648971,
+          "normDegree": 6.488131064897118,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.4881310648971,
+          "normDegree": 6.48813106489709,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.166497990193065,
+          "normDegree": 29.166497990193065,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.36582802595177,
+          "normDegree": 3.365828025951771,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.3368815138521,
+          "normDegree": 7.33688151385212,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202794582693933
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 341.3964990694709,
+          "normDegree": 11.396499069470906,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 272.1331294967788,
+          "normDegree": 2.1331294967787926,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 119.36386051391358,
+          "normDegree": 29.36386051391358,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 91.97386621963807,
+          "normDegree": 1.9738662196380687,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 257.22771614179777,
+          "normDegree": 17.22771614179777,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.704216499080125,
+          "normDegree": 17.704216499080125,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 319.16996608814264,
+          "normDegree": 19.169966088142644,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.6229860192056,
+          "normDegree": 21.622986019205598,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.4881310648971,
+          "normDegree": 6.488131064897118,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.4881310648971,
+          "normDegree": 6.48813106489709,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.166497990193065,
+          "normDegree": 29.166497990193065,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.36582802595177,
+          "normDegree": 3.365828025951771,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.3368815138521,
+          "normDegree": 7.33688151385212,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-16": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 17,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 342.71172461129106,
+          "normDegree": 12.71172461129106,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 273.15144072236717,
+          "normDegree": 3.1514407223671697,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 131.87230131988252,
+          "normDegree": 11.872301319882524,
+          "isRetro": "false",
+          "current_sign": 5,
+          "house_number": 6
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 91.5742677004696,
+          "normDegree": 1.5742677004696048,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 258.738168957282,
+          "normDegree": 18.738168957282028,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.64164715433378,
+          "normDegree": 17.641647154333782,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 320.1397358606859,
+          "normDegree": 20.139735860685903,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.71737895870075,
+          "normDegree": 21.71737895870075,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.43513908728454,
+          "normDegree": 6.43513908728454,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.43513908728454,
+          "normDegree": 6.43513908728454,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.15442145077737,
+          "normDegree": 29.15442145077737,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.38781681570777,
+          "normDegree": 3.3878168157077653,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.3690982747653,
+          "normDegree": 7.3690982747652924,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202832823162495
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 342.71172461129106,
+          "normDegree": 12.71172461129106,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 273.15144072236717,
+          "normDegree": 3.1514407223671697,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 5,
+          "house_number": 6,
+          "fullDegree": 131.87230131988252,
+          "normDegree": 11.872301319882524,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 91.5742677004696,
+          "normDegree": 1.5742677004696048,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 258.738168957282,
+          "normDegree": 18.738168957282028,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.64164715433378,
+          "normDegree": 17.641647154333782,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 320.1397358606859,
+          "normDegree": 20.139735860685903,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.71737895870075,
+          "normDegree": 21.71737895870075,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.43513908728454,
+          "normDegree": 6.43513908728454,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.43513908728454,
+          "normDegree": 6.43513908728454,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.15442145077737,
+          "normDegree": 29.15442145077737,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.38781681570777,
+          "normDegree": 3.3878168157077653,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.3690982747653,
+          "normDegree": 7.3690982747652924,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-17": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 18,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 344.02511964466584,
+          "normDegree": 14.025119644665835,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 274.1696086951095,
+          "normDegree": 4.169608695109503,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 144.11318420516182,
+          "normDegree": 24.113184205161815,
+          "isRetro": "false",
+          "current_sign": 5,
+          "house_number": 6
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 91.1765260792216,
+          "normDegree": 1.1765260792216026,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 260.25802222129573,
+          "normDegree": 20.258022221295732,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.58225893953063,
+          "normDegree": 17.582258939530632,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 321.10076620477065,
+          "normDegree": 21.10076620477065,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.81282018840983,
+          "normDegree": 21.81282018840983,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.38214710967566,
+          "normDegree": 6.382147109675657,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.38214710967566,
+          "normDegree": 6.382147109675657,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.14318870080282,
+          "normDegree": 29.14318870080282,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.41028460460495,
+          "normDegree": 3.4102846046049535,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.40134721832584,
+          "normDegree": 7.401347218325839,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202871063630592
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 344.02511964466584,
+          "normDegree": 14.025119644665835,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 274.1696086951095,
+          "normDegree": 4.169608695109503,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 5,
+          "house_number": 6,
+          "fullDegree": 144.11318420516182,
+          "normDegree": 24.113184205161815,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 91.1765260792216,
+          "normDegree": 1.1765260792216026,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 260.25802222129573,
+          "normDegree": 20.258022221295732,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.58225893953063,
+          "normDegree": 17.582258939530632,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.10076620477065,
+          "normDegree": 21.10076620477065,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.81282018840983,
+          "normDegree": 21.81282018840983,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.38214710967566,
+          "normDegree": 6.382147109675657,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.38214710967566,
+          "normDegree": 6.382147109675657,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.14318870080282,
+          "normDegree": 29.14318870080282,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.41028460460495,
+          "normDegree": 3.4102846046049535,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.40134721832584,
+          "normDegree": 7.401347218325839,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-18": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 19,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 345.33635466268265,
+          "normDegree": 15.336354662682652,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 275.18762324451563,
+          "normDegree": 5.187623244515635,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 156.1400775190207,
+          "normDegree": 6.140077519020707,
+          "isRetro": "false",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 90.78143093088318,
+          "normDegree": 0.7814309308831753,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 261.78723915186316,
+          "normDegree": 21.78723915186316,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.526083196449065,
+          "normDegree": 17.526083196449065,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 322.05273177651185,
+          "normDegree": 22.05273177651185,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 321.9092907848079,
+          "normDegree": 21.909290784807922,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.32915513207024,
+          "normDegree": 6.329155132070241,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.32915513207024,
+          "normDegree": 6.329155132070241,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.132804818882285,
+          "normDegree": 29.132804818882285,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.43322578115345,
+          "normDegree": 3.4332257811534532,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.4336205187565,
+          "normDegree": 7.433620518756527,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202909304098227
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 345.33635466268265,
+          "normDegree": 15.336354662682652,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 275.18762324451563,
+          "normDegree": 5.187623244515635,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.1400775190207,
+          "normDegree": 6.140077519020707,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 90.78143093088318,
+          "normDegree": 0.7814309308831753,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 261.78723915186316,
+          "normDegree": 21.78723915186316,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.526083196449065,
+          "normDegree": 17.526083196449065,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.05273177651185,
+          "normDegree": 22.05273177651185,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 321.9092907848079,
+          "normDegree": 21.909290784807922,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.32915513207024,
+          "normDegree": 6.329155132070241,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.32915513207024,
+          "normDegree": 6.329155132070241,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.132804818882285,
+          "normDegree": 29.132804818882285,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.43322578115345,
+          "normDegree": 3.4332257811534532,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.4336205187565,
+          "normDegree": 7.433620518756527,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-19": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 20,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 346.64510779381226,
+          "normDegree": 16.645107793812258,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 276.20547425556515,
+          "normDegree": 6.20547425556515,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 168.0239363830483,
+          "normDegree": 18.023936383048294,
+          "isRetro": "false",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 90.38975887130019,
+          "normDegree": 0.38975887130018805,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 263.3258299811117,
+          "normDegree": 23.325829981111724,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.473148838777824,
+          "normDegree": 17.473148838777824,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 322.9952934910664,
+          "normDegree": 22.995293491066377,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.0067717509484,
+          "normDegree": 22.006771750948417,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.27616315446863,
+          "normDegree": 6.276163154468634,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.27616315446863,
+          "normDegree": 6.276163154468634,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.12327454809239,
+          "normDegree": 29.12327454809239,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.4566346135746,
+          "normDegree": 3.456634613574579,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.4659103487732,
+          "normDegree": 7.465910348773207,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202947544565397
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 346.64510779381226,
+          "normDegree": 16.645107793812258,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 276.20547425556515,
+          "normDegree": 6.20547425556515,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 168.0239363830483,
+          "normDegree": 18.023936383048294,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 90.38975887130019,
+          "normDegree": 0.38975887130018805,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 263.3258299811117,
+          "normDegree": 23.325829981111724,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.473148838777824,
+          "normDegree": 17.473148838777824,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.9952934910664,
+          "normDegree": 22.995293491066377,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.0067717509484,
+          "normDegree": 22.006771750948417,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.27616315446863,
+          "normDegree": 6.276163154468634,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.27616315446863,
+          "normDegree": 6.276163154468634,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.12327454809239,
+          "normDegree": 29.12327454809239,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.4566346135746,
+          "normDegree": 3.456634613574579,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.4659103487732,
+          "normDegree": 7.465910348773207,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-20": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 21,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 347.95106431202737,
+          "normDegree": 17.95106431202737,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 277.22315167234717,
+          "normDegree": 7.223151672347171,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 179.8476248622568,
+          "normDegree": 29.847624862256794,
+          "isRetro": "false",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 90.00227034419112,
+          "normDegree": 0.0022703441911176014,
+          "isRetro": "true",
+          "current_sign": 4,
+          "house_number": 5
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 264.8738465919667,
+          "normDegree": 24.873846591966696,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.42348238571105,
+          "normDegree": 17.423482385711047,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 323.92809787014824,
+          "normDegree": 23.928097870148235,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.1052440214407,
+          "normDegree": 22.105244021440683,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.2231711768704,
+          "normDegree": 6.22317117687038,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.2231711768704,
+          "normDegree": 6.223171176870409,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.11460229708686,
+          "normDegree": 29.11460229708686,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.48050525233555,
+          "normDegree": 3.480505252335547,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.49820888160195,
+          "normDegree": 7.498208881601954,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.202985785032105
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 347.95106431202737,
+          "normDegree": 17.95106431202737,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.22315167234717,
+          "normDegree": 7.223151672347171,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 179.8476248622568,
+          "normDegree": 29.847624862256794,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 4,
+          "house_number": 5,
+          "fullDegree": 90.00227034419112,
+          "normDegree": 0.0022703441911176014,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 264.8738465919667,
+          "normDegree": 24.873846591966696,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.42348238571105,
+          "normDegree": 17.423482385711047,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 323.92809787014824,
+          "normDegree": 23.928097870148235,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.1052440214407,
+          "normDegree": 22.105244021440683,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.2231711768704,
+          "normDegree": 6.22317117687038,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.2231711768704,
+          "normDegree": 6.223171176870409,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.11460229708686,
+          "normDegree": 29.11460229708686,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.48050525233555,
+          "normDegree": 3.480505252335547,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.49820888160195,
+          "normDegree": 7.498208881601954,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-21": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 22,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 349.25391605276684,
+          "normDegree": 19.25391605276684,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 278.2406455016992,
+          "normDegree": 8.240645501699191,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 191.70057729092093,
+          "normDegree": 11.700577290920933,
+          "isRetro": "false",
+          "current_sign": 7,
+          "house_number": 8
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 89.61970657979433,
+          "normDegree": 29.619706579794325,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 266.4313777029109,
+          "normDegree": 26.43137770291088,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.37710799832749,
+          "normDegree": 17.37710799832749,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 324.8507763618861,
+          "normDegree": 24.85077636188612,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.2046884672757,
+          "normDegree": 22.204688467275673,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.17017919927576,
+          "normDegree": 6.170179199275765,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.17017919927576,
+          "normDegree": 6.170179199275765,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.106792141403552,
+          "normDegree": 29.106792141403552,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.50483173269157,
+          "normDegree": 3.504831732691571,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.53050829298525,
+          "normDegree": 7.530508292985246,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20302402549835
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 349.25391605276684,
+          "normDegree": 19.25391605276684,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 278.2406455016992,
+          "normDegree": 8.240645501699191,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 7,
+          "house_number": 8,
+          "fullDegree": 191.70057729092093,
+          "normDegree": 11.700577290920933,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 89.61970657979433,
+          "normDegree": 29.619706579794325,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 266.4313777029109,
+          "normDegree": 26.43137770291088,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.37710799832749,
+          "normDegree": 17.37710799832749,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 324.8507763618861,
+          "normDegree": 24.85077636188612,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.2046884672757,
+          "normDegree": 22.204688467275673,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.17017919927576,
+          "normDegree": 6.170179199275765,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.17017919927576,
+          "normDegree": 6.170179199275765,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.106792141403552,
+          "normDegree": 29.106792141403552,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.50483173269157,
+          "normDegree": 3.504831732691571,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.53050829298525,
+          "normDegree": 7.530508292985246,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-22": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 23,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 350.55336099685746,
+          "normDegree": 20.553360996857464,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 279.25794581678326,
+          "normDegree": 9.257945816783263,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 203.67345111642337,
+          "normDegree": 23.673451116423365,
+          "isRetro": "false",
+          "current_sign": 7,
+          "house_number": 8
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 89.24278675405426,
+          "normDegree": 29.242786754054265,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 267.9985444989424,
+          "normDegree": 27.998544498942408,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.33404751855727,
+          "normDegree": 17.33404751855727,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 325.762944632997,
+          "normDegree": 25.762944632997005,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.30508590050607,
+          "normDegree": 22.30508590050607,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.1171872216847,
+          "normDegree": 6.117187221684674,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.1171872216847,
+          "normDegree": 6.117187221684702,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.09984782496444,
+          "normDegree": 29.09984782496444,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.52960797723745,
+          "normDegree": 3.529607977237447,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.56280076318666,
+          "normDegree": 7.562800763186658,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20306226596413
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 350.55336099685746,
+          "normDegree": 20.553360996857464,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 279.25794581678326,
+          "normDegree": 9.257945816783263,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 7,
+          "house_number": 8,
+          "fullDegree": 203.67345111642337,
+          "normDegree": 23.673451116423365,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 89.24278675405426,
+          "normDegree": 29.242786754054265,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 267.9985444989424,
+          "normDegree": 27.998544498942408,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.33404751855727,
+          "normDegree": 17.33404751855727,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 325.762944632997,
+          "normDegree": 25.762944632997005,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.30508590050607,
+          "normDegree": 22.30508590050607,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.1171872216847,
+          "normDegree": 6.117187221684674,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.1171872216847,
+          "normDegree": 6.117187221684702,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.09984782496444,
+          "normDegree": 29.09984782496444,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.52960797723745,
+          "normDegree": 3.529607977237447,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.56280076318666,
+          "normDegree": 7.562800763186658,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-23": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 24,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 351.849103278656,
+          "normDegree": 21.849103278656003,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 280.27504276064474,
+          "normDegree": 10.275042760644737,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 215.85232783998703,
+          "normDegree": 5.852327839987026,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 9
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 88.87220537335165,
+          "normDegree": 28.872205373351647,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 269.5754966149883,
+          "normDegree": 29.57549661498831,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.294320510529246,
+          "normDegree": 17.294320510529246,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 326.66420183366364,
+          "normDegree": 26.66420183366364,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.40641707877995,
+          "normDegree": 22.406417078779953,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.0641952440972,
+          "normDegree": 6.06419524409722,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.06419524409722,
+          "normDegree": 6.06419524409722,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.093772761758075,
+          "normDegree": 29.093772761758075,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.55482779846676,
+          "normDegree": 3.5548277984667607,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.595078478986,
+          "normDegree": 7.595078478986011,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20310050642945
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 351.849103278656,
+          "normDegree": 21.849103278656003,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 280.27504276064474,
+          "normDegree": 10.275042760644737,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 8,
+          "house_number": 9,
+          "fullDegree": 215.85232783998703,
+          "normDegree": 5.852327839987026,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 88.87220537335165,
+          "normDegree": 28.872205373351647,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 269.5754966149883,
+          "normDegree": 29.57549661498831,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.294320510529246,
+          "normDegree": 17.294320510529246,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 326.66420183366364,
+          "normDegree": 26.66420183366364,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.40641707877995,
+          "normDegree": 22.406417078779953,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.0641952440972,
+          "normDegree": 6.06419524409722,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.06419524409722,
+          "normDegree": 6.06419524409722,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.093772761758075,
+          "normDegree": 29.093772761758075,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.55482779846676,
+          "normDegree": 3.5548277984667607,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.595078478986,
+          "normDegree": 7.595078478986011,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-24": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 25,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 353.14085372971607,
+          "normDegree": 23.14085372971607,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 281.29192654969324,
+          "normDegree": 11.291926549693244,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 228.31215713395414,
+          "normDegree": 18.312157133954145,
+          "isRetro": "false",
+          "current_sign": 8,
+          "house_number": 9
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 88.50862990566216,
+          "normDegree": 28.50862990566216,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 271.1624083836341,
+          "normDegree": 1.1624083836341015,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.257944304101144,
+          "normDegree": 17.257944304101144,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 327.5541298357101,
+          "normDegree": 27.554129835710114,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.5086627097281,
+          "normDegree": 22.508662709728128,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 336.01120326651335,
+          "normDegree": 6.011203266513348,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 156.01120326651335,
+          "normDegree": 6.011203266513348,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.088570037704553,
+          "normDegree": 29.088570037704553,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.58048490133183,
+          "normDegree": 3.580484901331829,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.6273336356686,
+          "normDegree": 7.627333635668606,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.203138746894307
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 353.14085372971607,
+          "normDegree": 23.14085372971607,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 281.29192654969324,
+          "normDegree": 11.291926549693244,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 8,
+          "house_number": 9,
+          "fullDegree": 228.31215713395414,
+          "normDegree": 18.312157133954145,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 88.50862990566216,
+          "normDegree": 28.50862990566216,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 271.1624083836341,
+          "normDegree": 1.1624083836341015,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.257944304101144,
+          "normDegree": 17.257944304101144,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 327.5541298357101,
+          "normDegree": 27.554129835710114,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.5086627097281,
+          "normDegree": 22.508662709728128,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 336.01120326651335,
+          "normDegree": 6.011203266513348,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 156.01120326651335,
+          "normDegree": 6.011203266513348,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.088570037704553,
+          "normDegree": 29.088570037704553,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.58048490133183,
+          "normDegree": 3.580484901331829,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.6273336356686,
+          "normDegree": 7.627333635668606,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-25": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 26,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 354.4283310073342,
+          "normDegree": 24.42833100733418,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 282.3085874771447,
+          "normDegree": 12.308587477144727,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 241.10959200069345,
+          "normDegree": 1.1095920006934534,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 88.15269867451404,
+          "normDegree": 28.152698674514042,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 272.759475262729,
+          "normDegree": 2.7594752627289836,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.224934040373626,
+          "normDegree": 17.224934040373626,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 328.43229244521154,
+          "normDegree": 28.432292445211544,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.61180345521126,
+          "normDegree": 22.61180345521126,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.9582112889331,
+          "normDegree": 5.958211288933114,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.95821128893311,
+          "normDegree": 5.958211288933114,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.08424241269164,
+          "normDegree": 29.08424241269164,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.60657288581166,
+          "normDegree": 3.6065728858116586,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.6595584390063,
+          "normDegree": 7.659558439006275,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.2031769873587
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 354.4283310073342,
+          "normDegree": 24.42833100733418,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 282.3085874771447,
+          "normDegree": 12.308587477144727,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 241.10959200069345,
+          "normDegree": 1.1095920006934534,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 88.15269867451404,
+          "normDegree": 28.152698674514042,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 272.759475262729,
+          "normDegree": 2.7594752627289836,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.224934040373626,
+          "normDegree": 17.224934040373626,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 328.43229244521154,
+          "normDegree": 28.432292445211544,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.61180345521126,
+          "normDegree": 22.61180345521126,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 335.9582112889331,
+          "normDegree": 5.958211288933114,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 155.95821128893311,
+          "normDegree": 5.958211288933114,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.08424241269164,
+          "normDegree": 29.08424241269164,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.60657288581166,
+          "normDegree": 3.6065728858116586,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.6595584390063,
+          "normDegree": 7.659558439006275,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-26": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 27,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 355.7112631752714,
+          "normDegree": 25.711263175271426,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 283.3250159164099,
+          "normDegree": 13.325015916409882,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 254.2759333867607,
+          "normDegree": 14.275933386760698,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 87.80501902761924,
+          "normDegree": 27.805019027619238,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 274.3669103597872,
+          "normDegree": 4.366910359787198,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.195302718989254,
+          "normDegree": 17.195302718989254,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 329.29823459109286,
+          "normDegree": 29.298234591092864,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.7158199354245,
+          "normDegree": 22.71581993542452,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.9052193113563,
+          "normDegree": 5.905219311356291,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.9052193113563,
+          "normDegree": 5.905219311356291,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.080792322779583,
+          "normDegree": 29.080792322779583,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.63308524947905,
+          "normDegree": 3.633085249479052,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.6917451072311,
+          "normDegree": 7.6917451072311,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20321522782263
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 355.7112631752714,
+          "normDegree": 25.711263175271426,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 283.3250159164099,
+          "normDegree": 13.325015916409882,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 254.2759333867607,
+          "normDegree": 14.275933386760698,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 87.80501902761924,
+          "normDegree": 27.805019027619238,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 274.3669103597872,
+          "normDegree": 4.366910359787198,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.195302718989254,
+          "normDegree": 17.195302718989254,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 329.29823459109286,
+          "normDegree": 29.298234591092864,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.7158199354245,
+          "normDegree": 22.71581993542452,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 335.9052193113563,
+          "normDegree": 5.905219311356291,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 155.9052193113563,
+          "normDegree": 5.905219311356291,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.080792322779583,
+          "normDegree": 29.080792322779583,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.63308524947905,
+          "normDegree": 3.633085249479052,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.6917451072311,
+          "normDegree": 7.6917451072311,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-27": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 28,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 356.9893895331923,
+          "normDegree": 26.98938953319231,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 284.34120232441137,
+          "normDegree": 14.34120232441137,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 267.81146364322365,
+          "normDegree": 27.811463643223647,
+          "isRetro": "false",
+          "current_sign": 9,
+          "house_number": 10
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 87.46616578752395,
+          "normDegree": 27.46616578752395,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 275.98494096948104,
+          "normDegree": 5.984940969481045,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.16906124702865,
+          "normDegree": 17.16906124702865,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 330.1514814918769,
+          "normDegree": 0.15148149187689341,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.82069273286527,
+          "normDegree": 22.82069273286527,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.8522273337831,
+          "normDegree": 5.852227333783105,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.8522273337831,
+          "normDegree": 5.852227333783105,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.078221882567643,
+          "normDegree": 29.078221882567643,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.6600153900671,
+          "normDegree": 3.6600153900670875,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.72388587299986,
+          "normDegree": 7.723885872999858,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.203253468286096
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 356.9893895331923,
+          "normDegree": 26.98938953319231,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 284.34120232441137,
+          "normDegree": 14.34120232441137,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 9,
+          "house_number": 10,
+          "fullDegree": 267.81146364322365,
+          "normDegree": 27.811463643223647,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 87.46616578752395,
+          "normDegree": 27.46616578752395,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 275.98494096948104,
+          "normDegree": 5.984940969481045,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.16906124702865,
+          "normDegree": 17.16906124702865,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 330.1514814918769,
+          "normDegree": 0.15148149187689341,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.82069273286527,
+          "normDegree": 22.82069273286527,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 335.8522273337831,
+          "normDegree": 5.852227333783105,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 155.8522273337831,
+          "normDegree": 5.852227333783105,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.078221882567643,
+          "normDegree": 29.078221882567643,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.6600153900671,
+          "normDegree": 3.6600153900670875,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.72388587299986,
+          "normDegree": 7.723885872999858,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-28": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 29,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 358.2624624294965,
+          "normDegree": 28.26246242949651,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 285.3571372448832,
+          "normDegree": 15.357137244883177,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 281.6830439617078,
+          "normDegree": 11.683043961707824,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 87.13667998709315,
+          "normDegree": 27.136679987093146,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 277.6138050376694,
+          "normDegree": 7.613805037669408,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.146218489310534,
+          "normDegree": 17.146218489310534,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 330.9915378035374,
+          "normDegree": 0.991537803537426,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 322.9264023961634,
+          "normDegree": 22.926402396163382,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.7992353562136,
+          "normDegree": 5.7992353562136145,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.7992353562136,
+          "normDegree": 5.799235356213586,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.07653288771445,
+          "normDegree": 29.07653288771445,
+          "isRetro": "true",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.6873566080379,
+          "normDegree": 3.6873566080378737,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.7559729853526,
+          "normDegree": 7.755972985352628,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.2032917087491
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 358.2624624294965,
+          "normDegree": 28.26246242949651,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 285.3571372448832,
+          "normDegree": 15.357137244883177,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 281.6830439617078,
+          "normDegree": 11.683043961707824,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 87.13667998709315,
+          "normDegree": 27.136679987093146,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.6138050376694,
+          "normDegree": 7.613805037669408,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.146218489310534,
+          "normDegree": 17.146218489310534,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 330.9915378035374,
+          "normDegree": 0.991537803537426,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 322.9264023961634,
+          "normDegree": 22.926402396163382,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 335.7992353562136,
+          "normDegree": 5.7992353562136145,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 155.7992353562136,
+          "normDegree": 5.799235356213586,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.07653288771445,
+          "normDegree": 29.07653288771445,
+          "isRetro": "true"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.6873566080379,
+          "normDegree": 3.6873566080378737,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.7559729853526,
+          "normDegree": 7.755972985352628,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-29": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 30,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 359.5302487528797,
+          "normDegree": 29.530248752879686,
+          "isRetro": "false",
+          "current_sign": 12
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 286.3728113116031,
+          "normDegree": 16.372811311603073,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 295.8270576329631,
+          "normDegree": 25.82705763296309,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 86.81706788857821,
+          "normDegree": 26.817067888578208,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 4
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 279.2537474602912,
+          "normDegree": 9.253747460291208,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.12678131991906,
+          "normDegree": 17.12678131991906,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 3
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 331.81788675212334,
+          "normDegree": 1.8178867521233428,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 323.03292944378063,
+          "normDegree": 23.03292944378063,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 12
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.74624337864753,
+          "normDegree": 5.746243378647534,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.74624337864753,
+          "normDegree": 5.746243378647534,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 7
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.075726817608118,
+          "normDegree": 29.075726817608118,
+          "isRetro": "false",
+          "current_sign": 1,
+          "house_number": 2
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.71510210914624,
+          "normDegree": 3.715102109146244,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 1
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.78799871165984,
+          "normDegree": 7.787998711659839,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 11
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.20332994921164
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 12,
+          "fullDegree": 359.5302487528797,
+          "normDegree": 29.530248752879686,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 286.3728113116031,
+          "normDegree": 16.372811311603073,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 295.8270576329631,
+          "normDegree": 25.82705763296309,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 4,
+          "fullDegree": 86.81706788857821,
+          "normDegree": 26.817067888578208,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 279.2537474602912,
+          "normDegree": 9.253747460291208,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 3,
+          "fullDegree": 47.12678131991906,
+          "normDegree": 17.12678131991906,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 331.81788675212334,
+          "normDegree": 1.8178867521233428,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 12,
+          "fullDegree": 323.03292944378063,
+          "normDegree": 23.03292944378063,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 335.74624337864753,
+          "normDegree": 5.746243378647534,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 7,
+          "fullDegree": 155.74624337864753,
+          "normDegree": 5.746243378647534,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 2,
+          "fullDegree": 29.075726817608118,
+          "normDegree": 29.075726817608118,
+          "isRetro": "false"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 1,
+          "fullDegree": 333.71510210914624,
+          "normDegree": 3.715102109146244,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 11,
+          "fullDegree": 277.78799871165984,
+          "normDegree": 7.787998711659839,
+          "isRetro": "false"
+        }
+      }
+    ]
+  },
+  "2025-01-30": {
+    "statusCode": 200,
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "date": 31,
+      "hours": 11,
+      "minutes": 0,
+      "seconds": 0,
+      "latitude": 23.18239,
+      "longitude": 75.77643,
+      "timezone": 5.5,
+      "config": {
+        "observation_point": "topocentric",
+        "ayanamsha": "lahiri"
+      }
+    },
+    "output": [
+      {
+        "0": {
+          "name": "Ascendant",
+          "fullDegree": 0.7925309035235344,
+          "normDegree": 0.7925309035235344,
+          "isRetro": "false",
+          "current_sign": 1
+        },
+        "1": {
+          "name": "Sun",
+          "fullDegree": 287.38821525161035,
+          "normDegree": 17.388215251610347,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 10
+        },
+        "2": {
+          "name": "Moon",
+          "fullDegree": 310.15850027916287,
+          "normDegree": 10.158500279162865,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 11
+        },
+        "3": {
+          "name": "Mars",
+          "fullDegree": 86.50780028096412,
+          "normDegree": 26.50780028096412,
+          "isRetro": "true",
+          "current_sign": 3,
+          "house_number": 3
+        },
+        "4": {
+          "name": "Mercury",
+          "fullDegree": 280.90501611798874,
+          "normDegree": 10.905016117988737,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 10
+        },
+        "5": {
+          "name": "Jupiter",
+          "fullDegree": 47.11075467477719,
+          "normDegree": 17.11075467477719,
+          "isRetro": "true",
+          "current_sign": 2,
+          "house_number": 2
+        },
+        "6": {
+          "name": "Venus",
+          "fullDegree": 332.6299892559606,
+          "normDegree": 2.629989255960595,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 12
+        },
+        "7": {
+          "name": "Saturn",
+          "fullDegree": 323.1402543675797,
+          "normDegree": 23.1402543675797,
+          "isRetro": "false",
+          "current_sign": 11,
+          "house_number": 11
+        },
+        "8": {
+          "name": "Rahu",
+          "fullDegree": 335.69325140108515,
+          "normDegree": 5.693251401085149,
+          "isRetro": "true",
+          "current_sign": 12,
+          "house_number": 12
+        },
+        "9": {
+          "name": "Ketu",
+          "fullDegree": 155.69325140108515,
+          "normDegree": 5.693251401085149,
+          "isRetro": "true",
+          "current_sign": 6,
+          "house_number": 6
+        },
+        "10": {
+          "name": "Uranus",
+          "fullDegree": 29.07580483817847,
+          "normDegree": 29.07580483817847,
+          "isRetro": "false",
+          "current_sign": 1,
+          "house_number": 1
+        },
+        "11": {
+          "name": "Neptune",
+          "fullDegree": 333.74324500700305,
+          "normDegree": 3.743245007003054,
+          "isRetro": "false",
+          "current_sign": 12,
+          "house_number": 12
+        },
+        "12": {
+          "name": "Pluto",
+          "fullDegree": 277.81995533956643,
+          "normDegree": 7.819955339566434,
+          "isRetro": "false",
+          "current_sign": 10,
+          "house_number": 10
+        },
+        "13": {
+          "name": "ayanamsa",
+          "value": 24.203368189673718
+        },
+        "debug": {
+          "observation_point": "topocentric",
+          "ayanamsa": "lahiri"
+        }
+      },
+      {
+        "Ascendant": {
+          "current_sign": 1,
+          "fullDegree": 0.7925309035235344,
+          "normDegree": 0.7925309035235344,
+          "isRetro": "false"
+        },
+        "Sun": {
+          "current_sign": 10,
+          "house_number": 10,
+          "fullDegree": 287.38821525161035,
+          "normDegree": 17.388215251610347,
+          "isRetro": "false"
+        },
+        "Moon": {
+          "current_sign": 11,
+          "house_number": 11,
+          "fullDegree": 310.15850027916287,
+          "normDegree": 10.158500279162865,
+          "isRetro": "false"
+        },
+        "Mars": {
+          "current_sign": 3,
+          "house_number": 3,
+          "fullDegree": 86.50780028096412,
+          "normDegree": 26.50780028096412,
+          "isRetro": "true"
+        },
+        "Mercury": {
+          "current_sign": 10,
+          "house_number": 10,
+          "fullDegree": 280.90501611798874,
+          "normDegree": 10.905016117988737,
+          "isRetro": "false"
+        },
+        "Jupiter": {
+          "current_sign": 2,
+          "house_number": 2,
+          "fullDegree": 47.11075467477719,
+          "normDegree": 17.11075467477719,
+          "isRetro": "true"
+        },
+        "Venus": {
+          "current_sign": 12,
+          "house_number": 12,
+          "fullDegree": 332.6299892559606,
+          "normDegree": 2.629989255960595,
+          "isRetro": "false"
+        },
+        "Saturn": {
+          "current_sign": 11,
+          "house_number": 11,
+          "fullDegree": 323.1402543675797,
+          "normDegree": 23.1402543675797,
+          "isRetro": "false"
+        },
+        "Rahu": {
+          "current_sign": 12,
+          "house_number": 12,
+          "fullDegree": 335.69325140108515,
+          "normDegree": 5.693251401085149,
+          "isRetro": "true"
+        },
+        "Ketu": {
+          "current_sign": 6,
+          "house_number": 6,
+          "fullDegree": 155.69325140108515,
+          "normDegree": 5.693251401085149,
+          "isRetro": "true"
+        },
+        "Uranus": {
+          "current_sign": 1,
+          "house_number": 1,
+          "fullDegree": 29.07580483817847,
+          "normDegree": 29.07580483817847,
+          "isRetro": "false"
+        },
+        "Neptune": {
+          "current_sign": 12,
+          "house_number": 12,
+          "fullDegree": 333.74324500700305,
+          "normDegree": 3.743245007003054,
+          "isRetro": "false"
+        },
+        "Pluto": {
+          "current_sign": 10,
+          "house_number": 10,
+          "fullDegree": 277.81995533956643,
+          "normDegree": 7.819955339566434,
+          "isRetro": "false"
+        }
+      }
+    ]
+  }
+}

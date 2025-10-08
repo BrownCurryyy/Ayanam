@@ -1,0 +1,22 @@
+{
+  "2024-12-31": {
+    "success": false,
+    "message": "Panchang validation failed. Monthly limit exceeded (hard limit)."
+  },
+  "2025-01-01": {
+    "success": false,
+    "message": "Panchang validation failed. Monthly limit exceeded (hard limit)."
+  },
+  "2025-01-02": {
+    "success": false,
+    "message": "Panchang validation failed. Monthly limit exceeded (hard limit)."
+  },
+  "2025-01-03": {
+    "success": false,
+    "message": "Panchang validation failed. Monthly limit exceeded (hard limit)."
+  },
+  "2025-01-04": {
+    "success": false,
+    "message": "Panchang validation failed. Monthly limit exceeded (hard limit)."
+  }
+}
