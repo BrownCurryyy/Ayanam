@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayanam Panchanga Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+</head>
+<body class="fade-in">
+
+  <!-- HEADER / NAV -->
+<header class="site-header">
+  <nav class="navbar">
+    <div class="logo-text">AYANAM</div>
+<button class="menu-toggle" id="menuToggle">🪔</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <!-- LEFT HERO PANEL -->
+    <div class="left-panel">
+      <img src="logocolor.png" alt="Ayanam Logo" class="bg-logo">
+      <div class="sanskrit-quotes">
+        <p class="quote active">धर्मो रक्षति रक्षितः — “Dharma protects those who protect it.”</p>
+        <p class="quote">सत्यं वद धर्मं चर — “Speak the truth, follow righteousness.”</p>
+        <p class="quote">कर्मण्येवाधिकारस्ते — “Your right is only to perform your duty.”</p>
+        <p class="quote">विद्या ददाति विनयं — “Knowledge gives humility.”</p>
+        <p class="quote">अहिंसा परमो धर्मः — “Non-violence is the highest virtue.”</p>
+        <p class="quote">योगः कर्मसु कौशलम् — “Yoga is excellence in action.”</p>
+      </div>
+    </div>
+
+    <!-- RIGHT FORM PANEL -->
+    <section class="panchanga-section">
+      <h1>Find Your 2025 Birthday</h1>
+      <form id="panchangaForm">
+        <label for="birthDate">Birth Date:</label>
+        <input type="date" id="birthDate" required>
+
+        <label for="nakshatra">Nakshatra:</label>
+        <select id="nakshatra"></select>
+
+        <label for="moonsign">Moon Sign (Rashi):</label>
+        <select id="moonsign"></select>
+
+        <button type="button" id="findBtn">Find Dates</button>
+      </form>
+
+      <div id="result" class="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    const quotes = document.querySelectorAll('.sanskrit-quotes .quote');
+    let index = 0;
+
+    function rotateQuotes() {
+      quotes.forEach(q => q.classList.remove('active'));
+      quotes[index].classList.add('active');
+      index = (index + 1) % quotes.length;
+    }
+
+    rotateQuotes();
+    setInterval(rotateQuotes, 4000);
+  </script>
+</body>
+</html>
