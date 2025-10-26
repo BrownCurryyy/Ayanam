@@ -16,41 +16,82 @@
       <button class="menu-toggle" id="menuToggle">🪔</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html" class="active">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ABOUT MAIN -->
+  <!-- MARQUEE BACKGROUND -->
   <main class="about-main">
-    <!-- BACKGROUND MARQUEE IMAGES -->
     <div class="marquee-images">
       <div class="marquee-track">
-        <img src="images/img1.jpg" alt="Gallery Image 1">
-        <img src="images/img2.jpg" alt="Gallery Image 2">
-        <img src="images/img3.jpg" alt="Gallery Image 3">
-        <img src="images/img4.jpg" alt="Gallery Image 4">
-        <img src="images/img5.jpg" alt="Gallery Image 5">
-        <!-- repeat for seamless scroll -->
-        <img src="images/img1.jpg" alt="Gallery Image 1">
-        <img src="images/img2.jpg" alt="Gallery Image 2">
-        <img src="images/img3.jpg" alt="Gallery Image 3">
-        <img src="images/img4.jpg" alt="Gallery Image 4">
-        <img src="images/img5.jpg" alt="Gallery Image 5">
+        <img src="images/img1.jpg" alt="">
+        <img src="images/img2.jpg" alt="">
+        <img src="images/img3.jpg" alt="">
+        <img src="images/img4.jpg" alt="">
+        <img src="images/img5.jpg" alt="">
+        <img src="images/img1.jpg" alt="">
+        <img src="images/img2.jpg" alt="">
+        <img src="images/img3.jpg" alt="">
+        <img src="images/img4.jpg" alt="">
+        <img src="images/img5.jpg" alt="">
       </div>
     </div>
 
-    <!-- DARK OVERLAY + TEXT -->
+    <!-- OVERLAY + CONTENT -->
     <div class="about-overlay">
-      <div class="about-text">
-        <h1>About Ayanam</h1>
-        <p>We are a team of students blending technology and culture. Ayanam is our effort to make the ancient Panchanga accessible in a modern, interactive way.</p>
-        <p>Team Ayanam is passionate about celebrating heritage while leveraging tech to create meaningful experiences for everyone.</p>
-      </div>
+      <section class="about-text">
+        <h1>About <span class="highlight">Ayanam</span></h1>
+        <p>
+          Ayanam bridges ancient Hindu timekeeping with today’s Gregorian calendar.
+          We help you trace <b>Tithi</b>, <b>Nakshatra</b>, and <b>Maasa</b> for any date —
+          connecting your cultural roots with your digital present.
+        </p>
+      </section>
+
+      <section class="aim-section">
+        <h2>Our Aim</h2>
+        <p>
+          We want to make spiritual calendars feel simple and accessible again.
+          Future versions of Ayanam will include a full-fledged calendar, user login, personalized reminders for Tithis, Nakshatras, and festivals — all synced with your daily life.
+        </p>
+      </section>
+
+      <section class="team-section">
+        <h2>Meet the Team</h2>
+        <div class="team-grid">
+          <div class="member">
+            <h3>Srivatsan S</h3>
+            <p><b>Lead - Tech & Core Logic</b><br>Handled everything from backend data parsing to frontend integration and UI flow.</p>
+          </div>
+          <div class="member">
+            <h3>S Dileep</h3>
+            <p><b>Design & UI/UX</b><br>Worked on layout, visuals, and consistency of user experience across all screens.</p>
+          </div>
+          <div class="member">
+            <h3>Shreyan B Shetty</h3>
+            <p><b>Data Systems</b><br>Collected and structured the Panchanga data used across calculations.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© 2025 Ayanam | Made with love and devotion.</p>
+        <div class="footer-links">
+          <h4>Feel Free to Contribute ^_^</h4>
+          <a href="https://github.com/BrownCurryyy/Ayanam" target="_blank">GitHub</a><br><br>
+          <a>srivatsan.23cse@cambridge.edu.in</a>
+          <a>dileep.23cse@cambridge.edu.in</a>
+          <a>shreyan.23cse@cambridge.edu.in</a>
+        </div>
+      </footer>
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    const toggle = document.getElementById("menuToggle");
+    const links = document.getElementById("navLinks");
+    toggle.addEventListener("click", () => links.classList.toggle("show"));
+  </script>
 </body>
 </html>

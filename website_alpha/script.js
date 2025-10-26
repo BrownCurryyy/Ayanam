@@ -11,93 +11,147 @@ const rashis = [
   "Dhanu","Makara","Kumbha","Meena"
 ];
 
-const nakSel = document.getElementById('nakshatra');
-const rashSel = document.getElementById('moonsign');
-const resultDiv = document.getElementById('result');
+// DOM refs
+const nakSel = document.getElementById("nakshatra");
+const rashSel = document.getElementById("moonsign");
+const resultDiv = document.getElementById("result");
+const findBtn = document.getElementById("findBtn");
+const fileInput = document.getElementById("panchangaFile"); // optional input to select JSON filename
 
 // populate dropdowns
-nakshatras.forEach(n => {
-  const opt = document.createElement('option');
-  opt.value = n;
-  opt.textContent = n;
-  nakSel.appendChild(opt);
-});
-rashis.forEach(r => {
-  const opt = document.createElement('option');
-  opt.value = r;
-  opt.textContent = r;
-  rashSel.appendChild(opt);
-});
+function populateSelects(){
+  nakshatras.forEach(n => {
+    const opt = document.createElement("option");
+    opt.value = n;
+    opt.textContent = n;
+    nakSel.appendChild(opt);
+  });
 
-// month → masas
+  rashis.forEach(r => {
+    const opt = document.createElement("option");
+    opt.value = r;
+    opt.textContent = r;
+    rashSel.appendChild(opt);
+  });
+}
+populateSelects();
+
+// helper: parse dd/mm/yyyy safely -> Date object (local timezone)
+function parseDMY(dateStr){
+  const parts = dateStr.split("/").map(s => s.trim());
+  if(parts.length !== 3) return null;
+  const [d,m,y] = parts.map(Number);
+  return new Date(y, m - 1, d);
+}
+
+// helper: parse iso date YYYY-MM-DD into {day,month,year}
+function parseISO(isoStr){
+  const [y,m,d] = isoStr.split("-").map(Number);
+  return { day: d, month: m, year: y };
+}
+
+// month → overlapping lunar months (Maasas). Keep both when ambiguous.
 const monthToMasas = {
-  1: ["Pausha"], 2: ["Magha"], 3: ["Phalguna"], 4: ["Chaitra"], 5: ["Vaishakha"],
-  6: ["Ashadha"], 7: ["Ashadha","Shravana"], 8: ["Shravana"], 9: ["Bhadrapada"],
-  10:["Ashwayuja"], 11:["Kartika"], 12:["Margashira"]
+  1: ["Pausha","Magha"],
+  2: ["Magha","Phalguna"],
+  3: ["Phalguna","Chaitra"],
+  4: ["Chaitra","Vaishakha"],
+  5: ["Vaishakha","Jyeshtha"],
+  6: ["Jyeshtha","Ashadha"],
+  7: ["Ashadha","Shravana"],
+  8: ["Shravana","Bhadrapada"],
+  9: ["Bhadrapada","Ashwayuja"],
+  10:["Ashwayuja","Kartika"],
+  11:["Kartika","Margashira"],
+  12:["Margashira","Pausha"]
 };
 
-// hide result initially
-resultDiv.classList.remove('show');
+// normalize string for robust compare
+function norm(s){ return String(s || "").trim().toLowerCase(); }
 
-document.getElementById('findBtn').addEventListener('click', async () => {
-  const birthDateStr = document.getElementById('birthDate').value;
-  const nakshatra = nakSel.value.trim();
-  const moonsign = rashSel.value.trim();
+// main finder
+findBtn.addEventListener("click", async () => {
+  // inputs
+  const birthISO = document.getElementById("birthDate").value; // YYYY-MM-DD
+  const nakshatra = nakSel.value;
+  const moonsign = rashSel.value;
+  const filename = (fileInput && fileInput.value) ? fileInput.value.trim() : "panchanga_2025.json";
 
-  if(!birthDateStr || !nakshatra || !moonsign) { alert('Please fill all fields'); return; }
+  if(!birthISO || !nakshatra || !moonsign){
+    alert("Please fill all fields (birth date, nakshatra, moonsign).");
+    return;
+  }
 
-  const birthDate = new Date(birthDateStr);
-  const birthDay = birthDate.getDate();
-  const birthMonth = birthDate.getMonth() + 1;
-  const masas = monthToMasas[birthMonth];
+  // read birth day/month and we'll map to the target year (panchanga file year)
+  const { day: birthDay, month: birthMonth } = parseISO(birthISO);
 
   try {
-    const data = await fetch('panchanga_2025.json').then(r=>r.json());
+    const data = await fetch(filename).then(r => {
+      if(!r.ok) throw new Error(`Failed to load ${filename}: ${r.status}`);
+      return r.json();
+    });
 
-    const matches = Object.entries(data).filter(([date, info]) =>
-      info.Nakshatra.toLowerCase() === nakshatra.toLowerCase() &&
-      info.Moonsign.toLowerCase() === moonsign.toLowerCase() &&
-      masas.some(m => info.Maasa.toLowerCase().includes(m.toLowerCase()))
-    );
-
-    if(matches.length === 0){
-      resultDiv.innerHTML = `<p>No matches found for ${nakshatra} (${moonsign}) in ${masas.join(', ')}.</p>`;
-      resultDiv.classList.add('show');
+    const keys = Object.keys(data);
+    if(keys.length === 0) {
+      resultDiv.innerHTML = `<p class="error">Panchanga file is empty.</p>`;
       return;
     }
 
-    // sort by closest day
-    matches.sort(([d1],[d2]) => {
-      const day1 = parseInt(d1.split('/')[0]);
-      const day2 = parseInt(d2.split('/')[0]);
-      return Math.abs(day1 - birthDay) - Math.abs(day2 - birthDay);
-    });
+    // derive target year from first entry key (dd/mm/YYYY)
+    const firstKeyParts = keys[0].split("/").map(s => s.trim());
+    const targetYear = firstKeyParts.length === 3 ? Number(firstKeyParts[2]) : (new Date()).getFullYear();
 
-    const [date, info] = matches[0];
+    // birth date anchored to target year (so distance measured inside that year)
+    const birthThisYear = new Date(targetYear, birthMonth - 1, birthDay);
 
+    // choose acceptable lunar months (maasa) for the birth month
+    const targetMasas = monthToMasas[birthMonth] || [];
+
+    // find matches over entire JSON (whole year)
+    const matches = [];
+    for(const [dateStr, info] of Object.entries(data)){
+      // make sure fields exist
+      if(!info || !info.Nakshatra || !info.Moonsign || !info.Maasa) continue;
+
+      // match nakshatra + moonsign (case-insensitive)
+      if(norm(info.Nakshatra) === norm(nakshatra) && norm(info.Moonsign) === norm(moonsign)){
+        // if the maasa matches any of the acceptable lunar months (loose contains)
+        const maasaOk = targetMasas.length === 0 ? true :
+                       targetMasas.some(m => norm(info.Maasa).includes(norm(m)));
+        if(maasaOk){
+          const dayDate = parseDMY(dateStr);
+          if(!dayDate) continue;
+          // compute absolute day difference vs birthThisYear (in days)
+          const diffDays = Math.abs((dayDate - birthThisYear) / (1000 * 60 * 60 * 24));
+          matches.push({ date: dateStr, info, diffDays, dateObj: dayDate });
+        }
+      }
+    }
+
+    if(matches.length === 0){
+      resultDiv.classList.add("show");
+      resultDiv.innerHTML = `<p>No matches found for <strong>${nakshatra}</strong> (${moonsign}) in lunar month(s): <em>${targetMasas.join(", ")}</em>.</p>`;
+      return;
+    }
+
+    // sort by absolute closeness (days)
+    matches.sort((a,b) => a.diffDays - b.diffDays);
+
+    // pick the nearest — ties resolved by earlier date (stable sort)
+    const nearest = matches[0];
+
+    // display only the nearest match
+    resultDiv.classList.add("show");
     resultDiv.innerHTML = `
-      <h3>Your Birthday is on</h3>
-      <h3>${date} → ${info.Tithi}, ${info.Nakshatra}, ${info.Moonsign}, ${info.Maasa}</h3>
+      <div class="result-card">
+        <h3>Your Birthday is on 🎂:</h3>
+        <p class="match-date">${nearest.date} — ${nearest.info.Tithi}, ${nearest.info.Nakshatra}, ${nearest.info.Moonsign}, ${nearest.info.Maasa}</p>
+      </div>
     `;
-    resultDiv.classList.add('show');
 
   } catch(err){
     console.error(err);
-    resultDiv.innerHTML = `<p style="color:red;">Error loading data.</p>`;
-    resultDiv.classList.add('show');
+    resultDiv.classList.add("show");
+    resultDiv.innerHTML = `<p class="error">⚠️ Error loading/processing data: ${err.message}</p>`;
   }
-});
-
-// fade-in body after load
-window.addEventListener('load', () => {
-  document.body.classList.add('fade-in');
-});
-
-// mobile nav toggle
-const menuToggle = document.getElementById('menuToggle');
-const navLinks = document.getElementById('navLinks');
-
-menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('active');
-  navLinks.classList.toggle('show');
 });
